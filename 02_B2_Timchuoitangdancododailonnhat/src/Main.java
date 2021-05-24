@@ -7,7 +7,6 @@ public class Main {
         System.out.println("Enter string");
         String string = scanner.nextLine();
         LinkedList<Character> max = new LinkedList<>();
-
         for (int i = 0; i < string.length(); i++) {
             LinkedList<Character> list = new LinkedList<>();
             list.add(string.charAt(i));
